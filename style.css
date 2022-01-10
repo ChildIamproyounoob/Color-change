@@ -1,0 +1,72 @@
+body{
+    background-color: ivory;
+    text-align: center;
+}
+
+p{
+    padding-top: 150px;
+    font-size: 2.9em;
+}
+
+h3{
+    font-size: 3.2em;
+}
+
+.change{
+    color: #9c27b0;
+}
+
+.change:after{
+    content: "";
+    animation: change 15s linear infinite;
+}
+
+@keyframes change{
+    0%{
+        content: "Red";
+        color: red;
+    }
+    10%{
+        content: "Yellow";
+        color: yellow;
+    }
+    20%{
+        content: "Green";
+        color: green;
+    }
+    30%{
+        content: "Blue";
+        color: blue;
+    }
+    40%{
+        content: "Purple";
+        color: purple;
+    }
+    50%{
+        content: "Chartreuse";
+        color: chartreuse;
+    }
+    60%{
+        content: "Gray";
+        color: gray;
+    }
+    70%{
+        content: "Gold";
+        color: gold;
+    }
+    80%{
+        content: "Indigo";
+        color: indigo;
+    }
+    90%{
+        content: "RoyalBlue";
+        color: royalblue;
+    }
+    100%{
+        content: "Violet";
+        color: violet;
+    }
+
+}
+   
+    
